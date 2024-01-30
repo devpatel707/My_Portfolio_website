@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/80f369aa03.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://media.tenor.com/n6jDOfcNgGAAAAAC/dev-patel-logo.gif" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Devloper</p>
+                <h1>Hi, I'm <span>Dev Patel</span> <br>From Gujarat.</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--   ---------------------about section ------------------------  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/background image.png" alt="my photo">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello EveryOne, My Name Is Dev Patel. I Am A Beginer Level Web Devloper.Right Now, I Am An
+                        Information Technology Student At Charusat Univercity Of Science And Technology,Change. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('sKills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('eduction')">Eduction</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="sKills">
+                        <ul>
+                            <li><span>Programming laguages</span><br> C,C++,JAVA</li>
+                            <li><span>Web Devlopment</span><br> Website devlopment</li>
+                            <li><span>Web Programming Laguages</span><br> HTML,CSS,JAVASCRIPT(basic)</li>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <!--<li><span>2021-current</span><br> web company</li>
+                            <li><span>2019-2021</span><br> team lead </li>
+                            <li><span>2015-2019</span><br> wen desiner</li>-->
+                            <li><span>Currently</span><br>
+                                Write Now I Have No Experience,Beacause I Am Beginer.</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="eduction">
+                        <ul>
+                            <li><span>2021-Continue</span><br> Study BTech (Currently 3rd Year)</li>
+                            <li><span>2021</span><br> Complete My HSC With 81%</li>
+                            <li><span>2019</span><br> Complete My SSC With 88%</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------Services--------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-titles">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p>web design is the process of creating the visual and user-friendly elements of a website or web
+                        application. Web designers use design software like Adobe Photoshop or Sketch to create layouts,
+                        graphics, and other visual elements that make up a website.</p>
+                    <a href="https://www.w3schools.com/">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Frontend Devlopment</h2>
+                    <p>Frontend developers are responsible for building the parts of a website or application that users
+                        interact with directly. This includes designing and developing user interfaces, implementing
+                        responsive design, creating and optimizing web content, and ensuring that websites and
+                        applications are accessible and usable across different devices and platforms.</p>
+                    <a href="https://www.trio.dev/blog/front-end-technologies">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Backend Devlopment</h2>
+                    <p> Backend developers are responsible for building the server-side of web applications and
+                        software. This includes developing and maintaining databases, designing and implementing APIs,
+                        and creating the logic and functionality that drives the application.</p>
+                    <a href="https://blog.hubspot.com/website/backend-technologies">Learn more</a>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.simplilearn.com/skills-required-to-become-a-full-stack-developer-article" class="btn">See
+            more</a>
+    </div>
+
+    <!-- --------------------- portfolio --------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="images/work-2.png" alt="2">
+                    <div class="layer">
+                        <h3>Gym Management website</h3>
+                        <p>In Gym Management website you can user many fectures of this website </p>
+                        <a href="#">
+                            <i<i class="fa-solid fa-up-right-from-square"></i></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="3">
+                    <div class="layer">
+                        <h3>resister form</h3>
+                        <p>In This resister form,you can resister your deatiles for picnic. </p>
+                        <a href="#">
+                            <i<i class="fa-solid fa-up-right-from-square"></i></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-1.png" alt="1">
+                    <div class="layer">
+                        <h3>social media app</h3>
+                        <p>the app connects you the telented people around the world Download it from play store. </p>
+                        <a href="#">
+                            <i<i class="fa-solid fa-up-right-from-square"></i></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- --------------------contact----------------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> <a
+                            href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcRzBWPFZQMKfmHxkfcCHTfKZMlVxGwVJBMcSJhcTGrFFpwsTPzQjTkPKTqSPbRBfLSLTqCQX">devdipakpatel2004@gmail.com</a>
+                    </p>
+                    <p><i class="fa-solid fa-phone-volume"></i>72******98</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/signup"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="Dev Patel Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required><br>
+                        <input type="email" name="email" placeholder="Your Email" required><br>
+                        <textarea name="Message" placeholder="Write Something About Website" cols="30"
+                            rows="10"></textarea><br>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>All Rights Are Reserved. Copyright &copy by Dev patel</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzPfNR6HfWXIkf8cOyTKo-d3vwUOH4P_yR1dtHtnb83WVjIRNGU0CddLByog9QBZRbi/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully!"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+
+                    }, 1500);
+                    form.reset();
+                })
+                 .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
